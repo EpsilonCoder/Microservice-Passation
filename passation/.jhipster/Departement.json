@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220905122021",
+  "clientRootFolder": "passation",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "departement",
+  "fields": [
+    {
+      "fieldName": "nomdepartement",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "commune",
+      "fieldType": "Commune",
+      "fieldValues": "Exemple1,Exemple2,Exemple3,Exemple4,Exemple5"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "passation",
+  "name": "Departement",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,16 @@
+
+entity Departement {
+	nomdepartement String
+    commune Commune 
+}
+
+enum Commune {
+	Exemple1, Exemple2, Exemple3, Exemple4, Exemple5 
+}
+
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
